@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
-@EnableFeignClients(basePackages = "com.heima.api.client")
+@EnableFeignClients(basePackages = "com.hmall.api.client")
 @MapperScan("com.hmall.cart.mapper")
 @SpringBootApplication
 class CartApplication {
